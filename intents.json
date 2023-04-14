@@ -1,0 +1,42 @@
+{"intents": [
+    {"tag": "salutations",
+    "patterns": ["bonjour","salut", "Bonjour","Salut"],
+    "responses": ["En quoi pouvons nous vous aider?"]
+    },
+    {"tag": "presentation",
+    "patterns": ["qui êtes vous ?"],
+    "responses": ["Je suis votre assistant ou si vous voulez votre conseiller sur le domaine du foncier."]
+    },
+    {"tag": "extorsions",
+    "patterns": ["j'ai été victime d'une extorsion","lors de vouloir m'installer sur le terrain ce n'etait plus le même."," déja occupé","un probleme de limites"],
+    "responses": ["pour résoudre ce problème nous vous conseillons d'alerter les autorités administrative pour qu'ils se saisissent de l'affaire. ainsi ils vous donnerons la marche à suivre"]
+    },
+    {"tag": "prix",
+    "patterns": ["cela pourrait coûter ","quels peuvent être les couts."," déja occupé","un probleme de limites"],
+    "responses": ["desole je suis pas habilité a parler des couts concernant ces domaines. je vous donne juste des conseils"]
+    },
+    {"tag": "aurevoir",
+    "patterns": ["merci","merci pour l'aide", "bye", "a plus"],
+    "responses": ["Heureux de vous avoir été utile. Dites nous si vous avez d'autres préocupations"]
+    },
+    {"tag": "utilite",
+    "patterns": ["en quoi tu peux m'aider?", "besoin de renseignements"],
+    "responses": ["Voici une liste de sujets sur lesquels je peux vous aider: \n\"-- problèmes de titre foncier\", \n\"problèmes de terrain\", \n\"problème sur l'achat d'un terrain\", \n\"comment éviter les fraudes foncières\",\n\"comment régler les problèmes d'extorsions\""]
+    },
+    {"tag": "propriete",
+    "patterns": ["comment acheter une propriété ?"],
+    "responses": ["Vous pouvez acheter une propriété en entrant en contact avec un agent immobilier ou un notaire."]
+    },
+    {"tag": "fraudes",
+    "patterns": ["comment éviter les fraudes foncières ?"],
+    "responses": ["Vous pouvez éviter les fraudes foncières en vérifiant les titres de propriété et en travaillant avec des agents immobiliers et des notaires de bonne réputation."]
+    },
+    {"tag": "achat",
+    "patterns": ["combien de temps faut-il pour transférer la propriété ?"],
+    "responses": ["Le temps de transfert de propriéte depend des circonstances individuelles et peut prendre quelques semaines a quelques mois."]
+    },
+    {"tag": "cout",
+    "patterns": ["quels sont les coûts associés à lachat d une propriété ?"],
+    "responses": ["Les couts associés à l achat d une propriétè incluent les frais d'enregistrement, les frais de notaire, les taxes foncières et les frais d agence."]
+    }
+]}
