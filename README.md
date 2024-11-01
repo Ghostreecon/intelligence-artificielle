@@ -1,6 +1,6 @@
 # intelligence-artificielle
 test d'ia generatives
-avant le test installer 
+avant le test installer sur l'ide
 -tensorflow
 -keras
 -numpy
